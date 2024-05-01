@@ -1,4 +1,5 @@
-
+//Maikeli Giuvelki Rodríguez Centeno 
+//2024-1633U
 import java.util.Scanner;
 
 public class practica_de_array{
@@ -18,7 +19,7 @@ while(!vali){
         vali=true;
     } catch (Exception e) {
         System.err.println("este codigo solo es para numeros por favor vuelva a intentarlo");
-        prueva=te.next();
+        prueba=te.next();
     }
     
 }
@@ -31,7 +32,7 @@ int array[] = new int [num];
 
 for (int i=0;i<num;i++){
     System.err.println("ingresa el numero");
-    prueva=te.next();
+    prueba=te.next();
     while(!validar){
        
     
@@ -40,7 +41,7 @@ for (int i=0;i<num;i++){
             validar=true;
         } catch (Exception e) {
             System.err.println("este codigo solo es para numeros por favor vuelva a intentarlo");
-            prueva=te.next();
+            prueba=te.next();
         }
         
     }
